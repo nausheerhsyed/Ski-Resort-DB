@@ -39,7 +39,27 @@
 - **Equipments:**
   This entity will manage information related to the rental of skiing and snowboarding equipment. It will store details such as equipment type, size, rental price, and availability.
 
-- Events: 
+- **Events:** 
   This entity will capture information about special events and activities offered at the resort, such as competitions, live performances, or group classes. Attributes could include the event name, date, time, location, and any associated costs   or requirements.
+
+## **Conceptual Data Model:**
+
+![](https://cdn.discordapp.com/attachments/997610442853711892/1230026448279048303/image.png?ex=6631d266&is=661f5d66&hm=be6b8342a02a81e96f540dba35a6da0944758559c25f6e147cceb73a1dad16b1&)
+
+## **Business Rules:**
+
+- 1.) A visitor can optionally rent multiple equipment, and each equipment item can be rented by only one visitor or none.
+
+- 2.) A visitor can optionally participate in multiple events, and each event can have multiple participating visitors, one or none.
+
+- 3.) A visitor can optionally only go on one lift at a time, but each lift can hold many visitors, one or none.
+
+- 4.) A ski slope must have at least one lift operating on it, and each lift must operate on at least one ski slope.
+
+## **Logical Model:**
+
+![](https://cdn.discordapp.com/attachments/997610442853711892/1230026172453224529/image.png?ex=6631d224&is=661f5d24&hm=b0bc1e05d613cbb5ca8a4cf3d980d4dd5c31d73ddef036039966122e65c252c0&)
+
+
 
 
