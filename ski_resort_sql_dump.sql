@@ -1,3 +1,5 @@
+-- This file contains code to create tables and inserting mock data values.
+
 -- Initiate Database
 CREATE DATABASE ski_resort_db;
 
@@ -76,12 +78,12 @@ CREATE TABLE [Events](
 INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (101,'Frost Festival Fair','Winter Festival',78,'2022-11-16','2023-02-01');
 INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (102,'Winter Sports Summit','Live Music',25,'2022-11-30','2023-01-07');
 INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (103,'Glacier Games Gala','Competition',67,'2022-11-23','2023-02-21');
-INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (104,'Ski Swap Soirée','Competition',72,'2022-11-15','2023-02-07');
+INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (104,'Ski Swap SoirÃ©e','Competition',72,'2022-11-15','2023-02-07');
 INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (105,'Snow Sculpture Showdown','Race',97,'2022-12-06','2023-01-17');
 INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (106,'Alpine Adventure Fest','Live Music',19,'2022-12-02','2023-01-02');
 INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (107,'Snowball Bash Bonanza','Competition',25,'2022-11-30','2023-01-16');
 INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (108,'Freestyle Frenzy Fiesta','Live Music',30,'2022-11-12','2023-03-06');
-INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (109,'Summit Serenity Soirée','Live Music',65,'2022-11-17','2023-01-13');
+INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (109,'Summit Serenity SoirÃ©e','Live Music',65,'2022-11-17','2023-01-13');
 INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (110,'Icy Incline Invitational','Winter Festival',72,'2022-12-12','2023-02-05');
 INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (111,'Freestyle Frenzy Fiesta','Competition',69,'2022-11-20','2022-12-28');
 INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (112,'Arctic Ascent Adventure','Live Music',29,'2022-11-18','2023-01-29');
@@ -104,7 +106,7 @@ INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_
 INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (129,'Avalanche Adventure Expo','Competition',41,'2022-11-19','2023-02-27');
 INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (130,'Icy Incline Invitational','Winter Festival',44,'2022-11-17','2023-02-27');
 INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (131,'Slope Soiree Spectacle','Winter Festival',48,'2022-12-02','2023-03-10');
-INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (132,'Summit Sunset Soirée','Race',53,'2022-12-12','2023-02-10');
+INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (132,'Summit Sunset SoirÃ©e','Race',53,'2022-12-12','2023-02-10');
 INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (133,'Alpine Achievers Affair','Live Music',57,'2022-11-12','2023-02-05');
 INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (134,'Ski Swap Extravaganza','Live Music',68,'2022-12-02','2023-02-16');
 INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (135,'Glacier Games Gala','Winter Festival',23,'2022-11-27','2023-02-21');
@@ -122,7 +124,7 @@ INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_
 INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (147,'Snow Sculpture Showcase','Race',82,'2022-11-16','2023-03-07');
 INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (148,'Backcountry Bliss Bash','Live Music',7,'2022-12-16','2023-03-06');
 INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (149,'Alpine Artistry Affair','Competition',91,'2022-11-16','2022-12-27');
-INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (150,'Summit Sunset Soirée','Winter Festival',72,'2022-12-06','2023-01-31');
+INSERT INTO [Events](event_id,event_name,event_type,max_capacity,start_date,end_date) VALUES (150,'Summit Sunset SoirÃ©e','Winter Festival',72,'2022-12-06','2023-01-31');
 
 -- Participations
 CREATE TABLE Participations(
