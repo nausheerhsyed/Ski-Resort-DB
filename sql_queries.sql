@@ -199,9 +199,6 @@ FROM Participations WHERE enjoyment_rating = 'Satisfied' OR enjoyment_rating = '
 GROUP BY event_id) a ON e.event_id = a.event_id
 ORDER BY a.satisfaction_count DESC
 
-
-
-
 -- Query to determine the popularity rank of equipment types based on total rentals.
 -- It calculates the total rentals for each equipment type and ranks them by popularity.
 WITH EquipmentPopularity AS (
@@ -224,8 +221,6 @@ FROM
 ORDER BY
    EP.total_rentals DESC;
 
-
-
 -- Query to determine the lift status and last maintenance date for each lift.
 -- It calculates the number of open slopes for each lift, the overall lift status, and the last maintenance date.
 SELECT
@@ -242,10 +237,6 @@ GROUP BY
    L.lift_id, L.lift_name
 ORDER BY
    open_slopes DESC, lift_status DESC;
-
-
-
-
 
 -- Query to compare the attendance of skiers and snowboarders for each event.
 -- It calculates the number of skiers and snowboarders attending each event and presents the results.
@@ -287,11 +278,6 @@ FROM
 ORDER BY
    Skiers_Attending + Snowboarders_Attending DESC;
 
-
-
-
-
-
 -- Query to retrieve information about ski slopes, including their difficulty level and the associated lift.
 -- It lists ski slopes along with their difficulty level and the lift they are associated with, ordering them by difficulty.
 SELECT
@@ -309,10 +295,6 @@ ORDER BY
        WHEN 'green' THEN 4
        ELSE 5
    END, s.slope_name;
-
-
-
-
 
 -- Query to calculate the percentage of rentals for skiing and snowboarding activities.
 -- It categorizes rentals into skiing, snowboarding, or other activities and calculates the percentage of each category.
